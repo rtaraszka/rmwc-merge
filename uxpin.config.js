@@ -33,8 +33,26 @@ module.exports = {
             "src/Cards/CardMediaContent/CardMediaContent.js",
             "src/Cards/CardPrimaryAction/CardPrimaryAction.js",
           ]
+        },
+        {
+          name: "Chips",
+          include: [
+            "src/Chips/Chip/Chip.js",
+            "src/Chips/ChipSet/ChipSet.js"
+          ]
+        },
+        {
+          name: "ImageLists",
+          include: [
+            "src/ImageLists/ImageList/ImageList.js",
+            "src/ImageLists/ImageListImage/ImageListImage.js",
+            "src/ImageLists/ImageListImageAspectContainer/ImageListImageAspectContainer.js",
+            "src/ImageLists/ImageListItem/ImageListItem.js", 
+            "src/ImageLists/ImageListLabel/ImageListLabel.js",
+            "src/ImageLists/ImageListSupporting/ImageListSupporting.js",
+          ]
         }
       ]
     },
-    name: "Material Design UI"
+    name: "RMWC"
   };
