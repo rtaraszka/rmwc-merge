@@ -4,7 +4,9 @@ module.exports = {
         {
           name: "General",
           include: [
-            "src/Typography/Typography.js"
+            "src/Typography/Typography.js",
+            "src/Icon/Icon.js",
+            "src/Ripple/Ripple.js"
           ]
         },
         {
@@ -42,7 +44,7 @@ module.exports = {
           ]
         },
         {
-          name: "ImageLists",
+          name: "Image Lists",
           include: [
             "src/ImageLists/ImageList/ImageList.js",
             "src/ImageLists/ImageListImage/ImageListImage.js",
@@ -51,8 +53,103 @@ module.exports = {
             "src/ImageLists/ImageListLabel/ImageListLabel.js",
             "src/ImageLists/ImageListSupporting/ImageListSupporting.js",
           ]
+        },
+        {
+          name: "Inputs and Controls",
+          include: [
+            "src/InputsAndControls/Checkbox/Checkbox.js",
+            "src/InputsAndControls/Radio/Radio.js",
+            "src/InputsAndControls/Select/Select/Select.js",
+            "src/InputsAndControls/Select/SelectHelperText/SelectHelperText.js",
+            "src/InputsAndControls/Slider/Slider.js",
+            "src/InputsAndControls/Switch/Switch.js",
+            "src/InputsAndControls/TextField/TextFieldHelperText/TextFieldHelperText.js",
+            "src/InputsAndControls/TextField/TextField/TextField.js",
+            "src/InputsAndControls/TextField/TextFieldIcon/TextFieldIcon.js",
+          ]
+        },
+        {
+          name: "Progress",
+          include: [
+            "src/Progress/LinearProgress/LinearProgress.js",
+            "src/Progress/CircularProgress/CircularProgress.js"
+          ]
+        },
+        {
+          name: "Lists",
+          include: [
+            "src/Lists/List/List.js",
+            "src/Lists/ListGroup/ListGroup.js",
+            "src/Lists/ListItem/ListItem.js",
+            "src/Lists/ListItemGraphic/ListItemGraphic.js",
+            "src/Lists/ListItemMeta/ListItemMeta.js",
+            "src/Lists/ListItemPrimaryText/ListItemPrimaryText.js",
+            "src/Lists/ListItemSecondaryText/ListItemSecondaryText.js",
+            "src/Lists/ListItemText/ListItemText.js",
+            "src/Lists/SimpleListItem/SimpleListItem.js",
+          ]
+        },
+        {
+          name: "Menus",
+          include: [
+            "src/Menus/MenuItem/MenuItem.js",
+            "src/Menus/SimpleMenu/SimpleMenu.js",
+            "src/Menus/SimpleMenuSurface/SimpleMenuSurface.js",
+          ]
+        },
+        {
+          name: "TopAppBar",
+          include: [
+            "src/TopAppBar/SimpleTopAppBar/SimpleTopAppBar.js",
+            "src/TopAppBar/TopAppBar/TopAppBar.js",
+            "src/TopAppBar/TopAppBarActionItem/TopAppBarActionItem.js",
+            "src/TopAppBar/TopAppBarNavigationIcon/TopAppBarNavigationIcon.js",
+            "src/TopAppBar/TopAppBarRow/TopAppBarRow.js",
+            "src/TopAppBar/TopAppBarSection/TopAppBarSection.js",
+            "src/TopAppBar/TopAppBarTitle/TopAppBarSection.js",
+          ]
+        },
+        {
+          name: "Table",
+          include: [
+            "src/DataTable/DataTable/DataTable.js",
+            "src/DataTable/DataTableBody/DataTableBody.js",
+            "src/DataTable/DataTableCell/DataTableCell.js",
+            "src/DataTable/DataTableContent/DataTableContent.js",
+            "src/DataTable/DataTableHead/DataTableHead.js",
+            "src/DataTable/DataTableHeadCell/DataTableHeadCell.js",
+            "src/DataTable/DataTableRow/DataTableRow.js",
+            "src/DataTable/SimpleDataTable/SimpleDataTable.js",
+          ]
+        },
+        {
+          name: "Drawer",
+          include: [
+            "src/Drawer/Drawer/Drawer.js",
+            "src/Drawer/DrawerContent/DrawerContent.js",
+            "src/Drawer/DrawerHeader/DrawerHeader.js",
+            "src/Drawer/DrawerSubtitle/DrawerSubtitle.js",
+            "src/Drawer/DrawerTitle/DrawerTitle.js",
+          ]
         }
+
       ]
     },
     name: "RMWC"
   };
+
+  /*
+  Currently unsupported components:
+  "src/Snackbar/Snackbar.js",
+          {
+          name: "Dialog",
+          include: [
+            "src/Dialog/Dialog/Dialog.js",
+            "src/Dialog/DialogActions/DialogActions.js",
+            "src/Dialog/DialogButton/DialogButton.js",
+            "src/Dialog/DialogContent/DialogContent.js",
+            "src/Dialog/DialogTitle/DialogTitle.js",
+            "src/Dialog/SimpleDialog/SimpleDialog.js",
+          ]
+        }
+  */
