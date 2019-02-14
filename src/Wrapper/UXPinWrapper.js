@@ -1,5 +1,6 @@
 import React from 'react';
 import './theme.css';
+import './css_fix.css';
 
 export default function UXPinWrapper({ children }) {
     let icons = document.createElement('link');

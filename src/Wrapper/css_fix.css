@@ -1,0 +1,15 @@
+.mdc-grid-list__tiles {
+    margin: 0 auto !important;
+}
+
+.mdc-select {
+    display: inline-block;
+}
+
+.mdc-notched-outline {
+    top: 0;
+}
+
+.mdc-text-field--fullwidth:not(.mdc-text-field--textarea) .mdc-text-field__input {
+    padding-left: 42px;
+}

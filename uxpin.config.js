@@ -6,7 +6,8 @@ module.exports = {
           include: [
             "src/Typography/Typography.js",
             "src/Icon/Icon.js",
-            "src/Ripple/Ripple.js"
+            "src/Ripple/Ripple.js",
+            "src/Elevation/Elevation.js"
           ]
         },
         {
@@ -131,25 +132,45 @@ module.exports = {
             "src/Drawer/DrawerSubtitle/DrawerSubtitle.js",
             "src/Drawer/DrawerTitle/DrawerTitle.js",
           ]
+        },
+        {
+          name: "GridList",
+          include: [
+            "src/GridList/GridList/GridList.js",
+            "src/GridList/GridTile/GridTile.js",
+            "src/GridList/GridTileIcon/GridTileIcon.js"
+          ]
         }
-
       ]
     },
     name: "RMWC"
   };
 
   /*
-  Currently unsupported components:
-  "src/Snackbar/Snackbar.js",
-          {
-          name: "Dialog",
+  Currently unsupported components due to implementation of position absolute:
+    {
+      name: "Dialog",
+      include: [
+        "src/Dialog/Dialog/Dialog.js",
+        "src/Dialog/DialogActions/DialogActions.js",
+        "src/Dialog/DialogButton/DialogButton.js",
+        "src/Dialog/DialogContent/DialogContent.js",
+        "src/Dialog/DialogTitle/DialogTitle.js",
+        "src/Dialog/SimpleDialog/SimpleDialog.js",
+      ]
+    }
+
+    {
+          name: "experimental",
           include: [
-            "src/Dialog/Dialog/Dialog.js",
-            "src/Dialog/DialogActions/DialogActions.js",
-            "src/Dialog/DialogButton/DialogButton.js",
-            "src/Dialog/DialogContent/DialogContent.js",
-            "src/Dialog/DialogTitle/DialogTitle.js",
-            "src/Dialog/SimpleDialog/SimpleDialog.js",
+            "src/Snackbar/Snackbar.js"
           ]
         }
+
+    Unknown bugs with components:
+    
+    "src/GridList/GridTilePrimary/GridTilePrimary.js",
+    "src/GridList/GridTilePrimaryContent/GridTilePrimaryContent.js",
+    "src/GridList/GridTileSecondary/GridTileSecondary.js",
+    "src/GridList/GridTileTitle/GridTileTitle.js"
   */
