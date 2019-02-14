@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Switch as SwitchM } from '@rmwc/radio';
-import '@material/radio/dist/mdc.radio.css';
+import { Switch as SwitchM } from '@rmwc/switch';
+import '@material/switch/dist/mdc.switch.css';
 import '@material/form-field/dist/mdc.form-field.css';
 
 function Switch(props) {
