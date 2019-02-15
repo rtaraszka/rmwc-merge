@@ -48,7 +48,7 @@ If you wish to push RMWC components to your UXPin account or set-up a continues 
 | Sliders | [RMWC Select Menus](https://jamesmfriedman.github.io/rmwc/sliders) | ✅ Full Support |
 | Switches | [RMWC Switches](https://jamesmfriedman.github.io/rmwc/switches) | ✅ Full Support |
 | Text Fields | [RMWC Switches](https://jamesmfriedman.github.io/rmwc/switches) | ✅ Full Support. 🐜 Known small CSS bugs in outlined version. |
-| Layout Grid | [RMWC Switches](https://jamesmfriedman.github.io/rmwc/layout-grid) | To be added |
+| Layout Grid | [RMWC Switches](https://jamesmfriedman.github.io/rmwc/layout-grid) | ✅ Full Support |
 | Linear Progress | [RMWC Switches](https://jamesmfriedman.github.io/rmwc/progress) | ✅ Full Support |
 | Circular Progress | [RMWC Switches](https://jamesmfriedman.github.io/rmwc/progress) | ✅ Full Support |
 | Lists | [RMWC Switches](https://jamesmfriedman.github.io/rmwc/lists) | ✅ Full Support |
