@@ -57,7 +57,7 @@ If you wish to push RMWC components to your UXPin account or set-up a continues 
 | Snackbars | [RMWC Switches](https://jamesmfriedman.github.io/rmwc/snackbards) | 🔻 Not Supported. Issues with absolutely positioned elements.|
 | Tabs | [RMWC Switches](https://jamesmfriedman.github.io/rmwc/snackbards) | ✅ Full Support |
 | TopAppBar | [RMWC Toolbars](https://jamesmfriedman.github.io/rmwc/top-app-bar) | ✅ Full Support |
-| Toolbars | [RMWC Toolbars](https://jamesmfriedman.github.io/rmwc/toolbars) | To be added |
+| Toolbars | [RMWC Toolbars](https://jamesmfriedman.github.io/rmwc/toolbars) | ✅ Full Support |
 | Typography | [RMWC Toolbars](https://jamesmfriedman.github.io/rmwc/typography) | ✅ Full Support |
 | Icons | [RMWC Toolbars](https://jamesmfriedman.github.io/rmwc/icons) | ✅ Full Support |
 
