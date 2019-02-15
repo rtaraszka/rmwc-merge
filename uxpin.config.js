@@ -111,6 +111,17 @@ module.exports = {
           ]
         },
         {
+          name: "Toolbar",
+          include: [
+            "src/Toolbar/Toolbar/Toolbar.js",
+            "src/Toolbar/ToolbarIcon/ToolbarIcon.js",
+            "src/Toolbar/ToolbarMenuIcon/ToolbarMenuIcon.js",
+            "src/Toolbar/ToolbarRow/ToolbarRow.js",
+            "src/Toolbar/ToolbarSection/ToolbarSection.js",
+            "src/Toolbar/ToolbarTitle/ToolbarTitle.js",
+          ]
+        },
+        {
           name: "Table",
           include: [
             "src/DataTable/DataTable/DataTable.js",
@@ -168,7 +179,7 @@ module.exports = {
         }
 
     Unknown bugs with components:
-    
+
     "src/GridList/GridTilePrimary/GridTilePrimary.js",
     "src/GridList/GridTilePrimaryContent/GridTilePrimaryContent.js",
     "src/GridList/GridTileSecondary/GridTileSecondary.js",
