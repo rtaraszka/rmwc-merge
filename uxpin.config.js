@@ -151,6 +151,14 @@ module.exports = {
             "src/GridList/GridTile/GridTile.js",
             "src/GridList/GridTileIcon/GridTileIcon.js"
           ]
+        },
+        {
+          name: "LayoutGrid",
+          include: [
+            "src/LayoutGrid/Grid/Grid.js",
+            "src/LayoutGrid/GridCell/GridCell.js",
+            "src/LayoutGrid/GridInner/GridInner.js"
+          ]
         }
       ]
     },
