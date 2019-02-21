@@ -107,7 +107,7 @@ module.exports = {
             "src/TopAppBar/TopAppBarNavigationIcon/TopAppBarNavigationIcon.js",
             "src/TopAppBar/TopAppBarRow/TopAppBarRow.js",
             "src/TopAppBar/TopAppBarSection/TopAppBarSection.js",
-            "src/TopAppBar/TopAppBarTitle/TopAppBarSection.js",
+            "src/TopAppBar/TopAppBarTitle/TopAppBarTitle.js",
           ]
         },
         {
