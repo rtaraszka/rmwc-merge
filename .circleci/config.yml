@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: "Install dependencies"
-          command: npm install
+          command: yarn install
       - run:
           name: 'Push to UXPin'
           command: yarn run push
